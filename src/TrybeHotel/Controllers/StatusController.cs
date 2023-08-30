@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
 
-
 namespace TrybeHotel.Controllers
 {
     [ApiController]
@@ -9,7 +8,7 @@ namespace TrybeHotel.Controllers
     {
         public IActionResult GetStatus()
         {
-            return OK(new {message = "online"});
+            return Ok(new { message = "online" });
         }
     }
 }
